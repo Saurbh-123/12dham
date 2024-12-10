@@ -1,0 +1,4 @@
+
+new DataTable('#dham-list', {
+
+});
