@@ -31,7 +31,7 @@
 
 <!-- Include Notie JS -->
 
-
+@livewireStyles();
 
 <script>
   window.dataLayer = window.dataLayer || [];

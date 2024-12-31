@@ -32,6 +32,14 @@
               <span class="pc-mtext">Dham List</span>
             </a>
           </li>
+          <li class="pc-item">
+            <a href="{{ route('train.list') }}" class="pc-link">
+              <span class="pc-micon">
+                <i data-feather="train"></i>
+              </span>
+              <span class="pc-mtext">Train List</span>
+            </a>
+          </li>
         </ul>
 
       </div>

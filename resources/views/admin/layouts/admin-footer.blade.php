@@ -10,7 +10,7 @@
       </div>
     </div>
   </footer>
-
+@livewireScripts();
   <!-- [Page Specific JS] start -->
   <!-- apexcharts js -->
   <script src="{{ asset('js/jquery.js') }}"></script>

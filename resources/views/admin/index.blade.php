@@ -2,6 +2,7 @@
 <html lang="en">
   <!-- [Head] start -->
 @include("admin.layouts.admin-head")
+@livewireStyles();
   <!-- [Head] end -->
   <!-- [Body] Start -->
 <body data-pc-preset="preset-1" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme="light">
@@ -53,7 +54,7 @@
                           <div class="col-9">
                               <h3 class="f-w-300 d-flex align-items-center m-b-0"><i class="feather icon-arrow-up text-success f-30 m-r-10"></i>$249.95</h3>
                           </div>
-
+                         @livewire('test');
                           <div class="col-3 text-end">
                               <p class="m-b-0">67%</p>
                           </div>
@@ -69,5 +70,5 @@
     </div>
 
 
-
+@livewireScripts();
  @include("admin.layouts.admin-footer")

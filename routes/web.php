@@ -3,6 +3,7 @@
 use App\Http\Controllers\DhamContoller;
 use App\Http\Controllers\HomeContoller;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TrainContoller;
 use App\Http\Middleware\name;
 use Illuminate\Support\Facades\Route;
 
@@ -25,6 +26,9 @@ Route::prefix("admin")->middleware("auth")->group(function(){
 
     // dham end
 
+    // train
+    Route::get('train_list',[TrainContoller::class,'index'])->name('train.list');
+    Route::get('add_train',[TrainContoller::class,'show_add_page'])->name('train.add');
 
 
 
